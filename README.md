@@ -134,7 +134,7 @@ Here is a [tutorial](https://fastapi.tiangolo.com/tutorial/) for fastAPI
   | Name                                            | LinkedIn                                                                                                                                                                                                                                               | Medium Article |
 | ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
 |Victor Nyarko Anim         |[Profile](https://www.linkedin.com/in/victor-anim-83115818/)|[Article](https://medium.com/@victor.nyarko/my-full-stack-app-using-fastapi-as-my-backend-and-streamlit-as-my-frontend-containerization-with-14ea216914ec)|
-| Aminu Oluwarotimi Desmond | [Aminu Oluwarotimi Desmond](https://www.linkedin.com/in/aminudesmond/) |[Sepsis Prediction Web App: FastAPI Development and Docker Containerization](https://medium.com/@aminuoluwarotimi/building-a-machine-learning-api-with-python-fastapi-and-docker-81ec608b9263)|
+| Aminu Oluwarotimi Desmond | [Profile](https://www.linkedin.com/in/aminudesmond/) |[Article](https://medium.com/@aminuoluwarotimi/building-a-machine-learning-api-with-python-fastapi-and-docker-81ec608b9263)|
 
 
 ## Model Training and Saving ⏳
