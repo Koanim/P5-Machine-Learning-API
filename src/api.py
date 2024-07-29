@@ -19,23 +19,31 @@ class PatientsFile(BaseModel):
 # Initialize FastAPI app
 app = FastAPI()
 
-# Load the models and encoder with error handling
+# Load the models and encoder
+model_dir = "./Models"
+decision_tree_path = os.path.join(model_dir, "Decision_Tree_tunedb_pipeline.joblib")
+logistic_regression_path = os.path.join(model_dir, "Logistic_Regression_tunedb_pipeline.joblib")
+encoder_path = os.path.join(model_dir, "label_encoder.joblib")
+
+# Load Decision Tree model
 try:
-    decision_tree = joblib.load("./Models/Decision_Tree_tunedb_pipeline.joblib")
+    decision_tree = joblib.load(decision_tree_path)
     print("Decision Tree model loaded successfully.")
 except Exception as e:
     print(f"Error loading Decision Tree model: {e}")
     decision_tree = None
 
+# Load Logistic Regression model
 try:
-    logistic_regression = joblib.load("./Models/Logistic_Regression_tunedb_pipeline.joblib")
+    logistic_regression = joblib.load(logistic_regression_path)
     print("Logistic Regression model loaded successfully.")
 except Exception as e:
     print(f"Error loading Logistic Regression model: {e}")
     logistic_regression = None
 
+# Load the label encoder
 try:
-    encoder = joblib.load("./Models/Label_encoder.joblib")
+    encoder = joblib.load(encoder_path)
     print("Encoder loaded successfully.")
 except Exception as e:
     print(f"Error loading encoder: {e}")
@@ -83,3 +91,8 @@ def predict_logistic_regression(data: PatientsFile):
         return {"prediction": prediction_decoded.tolist()}
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Prediction error: {e}")
+
+# Main block to start the FastAPI app
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8000)
