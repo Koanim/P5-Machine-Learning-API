@@ -129,10 +129,12 @@ Here is a [tutorial](https://fastapi.tiangolo.com/tutorial/) for fastAPI
 - Prediction
 <img width="1384" alt="Screenshot 2024-07-28 at 8 35 37 AM" src="https://github.com/user-attachments/assets/60b57483-0d01-4a4c-b2c7-09502b77fd7a">
 
-## Author 👨‍💼
+## Authors 👨‍💼
 
   | Name                                            | LinkedIn                                                                                                                                                                                                                                               | Medium Article |
 | ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- |
+|Victor Nyarko Anim         |[Profile](https://www.linkedin.com/in/victor-anim-83115818/)|[Article](https://medium.com/@victor.nyarko/my-full-stack-app-using-fastapi-as-my-backend-and-streamlit-as-my-frontend-containerization-with-14ea216914ec)
+
 | Aminu Oluwarotimi Desmond | [Aminu Oluwarotimi Desmond](https://www.linkedin.com/in/aminudesmond/) |[Sepsis Prediction Web App: FastAPI Development and Docker Containerization](https://medium.com/@aminuoluwarotimi/building-a-machine-learning-api-with-python-fastapi-and-docker-81ec608b9263)|
 
 
