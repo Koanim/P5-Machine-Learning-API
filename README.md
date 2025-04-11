@@ -152,4 +152,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Contact 📧
 
-For questions, feedback, and collaborations, please contact [Aminu Oluwarotimi Desmond](aminuoluwarotimi@gmail.com).
+For questions, feedback, and collaborations, please contact [Aminu Oluwarotimi Desmond](victor.nyarko@ymail.com).
